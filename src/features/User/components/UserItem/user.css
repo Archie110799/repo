@@ -1,0 +1,31 @@
+.card-zone{
+    position: relative;
+    margin: 2rem auto;
+    width: 300px;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .card-zone .div-image{
+    position: absolute;
+    width: 50%;
+  }
+  
+  .card-zone .div-info{
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top:10%;
+    text-align: left;
+  }
+  
+  .card-zone .div-info span{
+    display: block;
+  
+  }
+  
+  .info-title{
+    font-weight: 700;
+    font-size: 20px;
+  }
